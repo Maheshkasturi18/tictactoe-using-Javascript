@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tac.css">
+    <script src="toe.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="heading">
+
+        <h1>TIC TAC TOE</h1>
+
+        <p>First Player starts as <b>Player X</b> <br><br>
+            Second Player as <b>Player 0</b>
+        </p>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <input type="text" value="" id="b1" onclick="fun1(),btn();" readonly>
+            <input type="text" value="" id="b2" onclick="fun2(),btn();" readonly>
+            <input type="text" value="" id="b3" onclick="fun3(), btn();" readonly>
+        </div>
+
+        <div class="box">
+            <input type="text" value="" id="b4" onclick="fun4(), btn();" readonly>
+            <input type="text" value="" id="b5" onclick="fun5(), btn();" readonly>
+            <input type="text" value="" id="b6" onclick="fun6(), btn();" readonly>
+        </div>
+
+        <div class="box">
+            <input type="text" value="" id="b7" onclick="fun7(), btn();" readonly>
+            <input type="text" value="" id="b8" onclick="fun8(), btn();" readonly>
+            <input type="text" value="" id="b9" onclick="fun9(), btn();" readonly>
+        </div>
+    </div>
+
+
+    <p id="turn"></p>
+
+    <div class="button">
+        <button id="reset" onclick="fun10()">RESET</button>
+    </div>
+</body>
+
+</html>
