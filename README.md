@@ -1,1 +1,1 @@
-# tictactoe-using-Javascript
+# tictactoe-using-JavaScript
