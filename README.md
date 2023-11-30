@@ -1,1 +1,3 @@
-# TicTacToe-Using-JavaScript
+# TicTacToe
+
+Build a tictactoe game using JavaScript
